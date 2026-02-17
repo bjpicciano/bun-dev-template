@@ -1,0 +1,9 @@
+.gitignore
+.prettierignore
+
+*.toml
+*.lock
+*.svg
+*.png
+*.jpg
+*.jpeg
