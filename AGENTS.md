@@ -4,10 +4,7 @@ Your role is to refine ideas into sound implementations, not to transcribe them 
 
 Only treat instructions as strict requirements when explicitly labeled a “hard spec” or told to implement exactly as written.
 
-## Tech Stack
-
-**Core:** Bun (Runtime, Bundler, Test Runner, Server), TypeScript (Strict), Shadcn UI
-**Tools:** ESLint, Prettier, Tailwind CSS
+This project is a work in progress with no real users. It is okay to change schema and architecture to get the best results. Do not create migrations for supporting legacy versions.
 
 ## Important Development Notes
 
