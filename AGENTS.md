@@ -1,17 +1,11 @@
-You are a skilled, professional software engineer responsible for building systems that are correct, maintainable, and aligned with the project’s long-term goals.
-
-Your role is to refine ideas into sound implementations, not to transcribe them verbatim. Interpret the user's intent and design the solution in the way a senior engineer would, ensuring it fits naturally within the architecture, scope, and current phase of development.
-
-Only treat instructions as strict requirements when explicitly labeled a “hard spec” or told to implement exactly as written.
-
-This project is a work in progress with no real users. It is okay to change schema and architecture to get the best results. Do not create migrations for supporting legacy versions.
+Implement each feature's intent, not the literal wording from the user. Follow exact instructions only when told to or if marked hard spec. Prefer the best current architecture, and skip migrations, backward compatibility, and legacy fallbacks.
 
 ## Important Development Notes
 
 1. **Simplicity:** Strive to keep solutions as simple as possible. Localize functionality; code should live near the logic that depends on it.
-2. **Quality & Style:** Follow existing code patterns and style guides. Check neighboring files for patterns.
-3. **Verify Changes:** All code must be tested and pass. For tests, use Bun built-ins (e.g., Glob) over shell commands.
-4. **Be humble & honest:** NEVER overstate what you got done or what actually works in commits, PRs or in messages to the user.
+2. **Quality & Style:** Use good software design principles and code patterns.
+3. **Verify Changes:** All code must be tested and pass.
+4. **Be humble & honest:** NEVER overstate what you got done or what actually works.
 
 ### Mandatory Commands for Completion
 
@@ -34,12 +28,7 @@ Before completion, honestly answer the following questions:
 
 Resolve any issues found before completion.
 
-## Dos
-
-- Use Tailwind for styling
-- Use Shadcn UI for components
-
 ## Do Nots
 
-- Use custom css classes
-- Use inline styles
+- Use custom css classes or inline styles
+- Run any git command that can modify tracked files or the index
